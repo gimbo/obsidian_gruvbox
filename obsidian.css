@@ -58,16 +58,16 @@
     --text-title-h3:              var(--neutral-yellow);
     --text-title-h4:              var(--neutral-green);
     --text-title-h5:              var(--neutral-aqua);
-    --text-link:                  var(--bright-blue);
-    --text-a:                     var(--bright-orange);
-    --text-a-hover:               var(--bright-blue);
+    --text-link:                  var(--bright-blue);  /* ??? */
+    --text-a:                     var(--bright-blue);  /* Links in preview */
+    --text-a-hover:               var(--neutral-yellow);  /* Src: link URL */
     --text-mark:                  var(--neutral-yellow);
     --pre-code:                   var(--dark1);
     --text-highlight-bg:          var(--faded-aqua);
     --interactive-accent:         var(--bright-orange);
     --interactive-before:         var(--dark4);
     --background-modifier-border: var(--dark2);
-    --text-accent:                var(--bright-orange);
+    --text-accent:                var(--bright-blue);  /* Src: link text */
     --interactive-accent-rgb:     var(--bright-orange);
     --inline-code:                var(--bright-blue);
     --code-block:                 var(--bright-blue);
