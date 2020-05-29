@@ -430,3 +430,6 @@ img
     opacity: 60% !important;
 }
 
+.markdown-source-view {
+  font-family: var(--font-monospace), monospace;
+}
