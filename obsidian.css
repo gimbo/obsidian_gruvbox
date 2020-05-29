@@ -47,10 +47,10 @@
 .theme-dark
 {
     --font-monospace: 'Hack Nerd Font', 'Source Code Pro', monospace;
-    --background-primary:         var(--dark0);
-    --background-primary-alt:     var(--dark0);
-    --background-secondary:       var(--dark0-hard);
-    --background-secondary-alt:   var(--dark1);
+    --background-primary:         var(--dark0-hard);
+    --background-primary-alt:     var(--dark0-hard);
+    --background-secondary:       var(--dark0);
+    --background-secondary-alt:   var(--dark1-hard);
     --text-normal:                var(--light0);
     --text-faint:                 var(--light3);
     --text-title-h1:              var(--neutral-red);
@@ -76,10 +76,10 @@
 
 .theme-light
 {
-    --background-primary:         var(--light0);
-    --background-primary-alt:     var(--light0);
-    --background-secondary:       var(--light0-hard);
-    --background-secondary-alt:   var(--light1);
+    --background-primary:         var(--light0-hard);
+    --background-primary-alt:     var(--light0-hard);
+    --background-secondary:       var(--light0);
+    --background-secondary-alt:   var(--light1-hard);
     --text-normal:                var(--dark0);
     --text-faint:                 var(--dark3);
     --text-title-h1:              var(--faded-red);
