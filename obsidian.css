@@ -72,6 +72,7 @@
     --inline-code:                var(--bright-blue);
     --code-block:                 var(--bright-blue);
     --vim-cursor:                 var(--bright-orange);
+    --leaf-resize-handle:         var(--background-secondary);
 }
 
 .theme-light
@@ -100,6 +101,7 @@
     --interactive-accent-rgb:     var(--neutral-orange);
     --inline-code:                var(--neutral-blue);
     --vim-cursor:                 var(--neutral-orange);
+    --leaf-resize-handle:         var(--background-secondary);
 }
 
 .theme-dark code[class*="language-"],
@@ -432,4 +434,9 @@ img
 
 .markdown-source-view {
   font-family: var(--font-monospace), monospace;
+}
+
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle {
+  width: 2px;
+  background-color: var(--leaf-resize-handle);
 }
