@@ -433,10 +433,10 @@ img
 }
 
 .markdown-source-view {
-  font-family: var(--font-monospace), monospace;
+    font-family: var(--font-monospace), monospace;
 }
 
 .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle {
-  width: 2px;
-  background-color: var(--leaf-resize-handle);
+    width: 2px;
+    background-color: var(--leaf-resize-handle);
 }
