@@ -463,3 +463,11 @@ input.task-list-item-checkbox:checked {
 .markdown-source-view {
     font-family: var(--font-monospace), monospace;
 }
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: none;
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-section {
+    max-width: none;
+}
