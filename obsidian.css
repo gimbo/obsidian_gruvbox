@@ -471,3 +471,7 @@ input.task-list-item-checkbox:checked {
 .markdown-preview-view.is-readable-line-width .markdown-preview-section {
     max-width: none;
 }
+
+.view-header-title::selection {
+    background-color: var(--bright-aqua);
+}
