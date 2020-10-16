@@ -468,6 +468,10 @@ input.task-list-item-checkbox:checked {
     max-width: none;
 }
 
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: none;
+}
+
 .markdown-preview-view.is-readable-line-width .markdown-preview-section {
     max-width: none;
 }
